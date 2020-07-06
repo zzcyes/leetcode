@@ -1,7 +1,7 @@
 module.exports = {
   title: 'zzcyes',
   base: '/blog/',
-  description: 'Learning and recording',
+  description: 'leetcode',
   head: [['link', { rel: 'icon', href: '/img/logo.ico' }]],
   theme: 'antdocs',
   themeConfig: {
@@ -18,63 +18,48 @@ module.exports = {
     ],
     sidebar: [
       ['/catalogue', 'Catalogue'],
-      {
-        title: 'JavaScript',
-        sidebarDepth: 2,
-        children: [
-          'markdown/JavaScript/001_JavaScript之对象',
-          'markdown/JavaScript/002_JavaScript之对象的创建',
-          'markdown/JavaScript/003_JavaScript之继承',
-          'markdown/JavaScript/004_JavaScript之数组',
-          'markdown/JavaScript/005_JavaScript之原型原型链prototype',
-          'markdown/JavaScript/006_JavaScript之BOM',
-          'markdown/JavaScript/007_JavaScript之DOM',
-          'markdown/JavaScript/008_JavaScript之function',
-          'markdown/JavaScript/009_JavaScript之Symbol',
-        ],
-      },
-      {
-        title: 'problem-record',
-        sidebarDepth: 2,
-        children: [
-          'markdown/problem-record/001_CORS',
-          'markdown/problem-record/002_HTTP&HTTPS混用',
-          'markdown/problem-record/003_input无法连续上传同一文件',
-          'markdown/problem-record/004_TypeScript',
-        ],
-      },
-      {
-        title: 'reading-notes',
-        sidebarDepth: 2,
-        children: [
-          'markdown/reading-notes/001_airbnb-javascript-style-guide',
-          'markdown/reading-notes/002_css-world',
-        ],
-      },
-      {
-        title: 'tool-side',
-        sidebarDepth: 2,
-        children: ['markdown/tool-side/001_nginx的安装与使用'],
-      },
-      {
-        title: 'TypeScript',
-        sidebarDepth: 2,
-        children: ['markdown/TypeScript/001_TypeScript入门之安装与配置'],
-      },
-      {
-        title: 'Vue',
-        sidebarDepth: 2,
-        children: [
-          'markdown/Vue/001_store中“getter”和“mutation”的生成',
-          'markdown/Vue/002_Vue3.0+TypeScript脚手架搭建项目',
-          'markdown/Vue/003_Vue3.0+vue-cli-plugin-vue-next填坑记',
-        ],
-      },
-      {
-        title: 'webpack',
-        sidebarDepth: 2,
-        children: ['markdown/webpack/001_webpack入门之安装与配置'],
-      },
+     { title: '二叉树',
+      sidebarDepth: 2,
+      children:
+       [ 'markdown/二叉树/111. 二叉树的最小深度',
+         'markdown/二叉树/235. 二叉搜索树的最近公共祖先',
+         'markdown/二叉树/236. 二叉树的最近公共祖先',
+         'markdown/二叉树/513. 找树左下角的值',
+         'markdown/二叉树/543. 二叉树的直径' ] },
+    { title: '其他',
+      sidebarDepth: 2,
+      children:
+       [ 'markdown/其他/165. 比较版本号',
+         'markdown/其他/27. 移除元素',
+         'markdown/其他/9. 回文数' ] },
+    { title: '动态规划',
+      sidebarDepth: 2,
+      children: [ 'markdown/动态规划/718. 最长重复子数组' ] },
+    { title: '哈希表',
+      sidebarDepth: 2,
+      children:
+       [ 'markdown/哈希表/1. 两数之和',
+         'markdown/哈希表/146. LRU缓存机制',
+         'markdown/哈希表/169. 多数元素',
+         'markdown/哈希表/3. 无重复字符的最长子串' ] },
+    { title: '栈',
+      sidebarDepth: 2,
+      children: [ 'markdown/栈/155. 最小栈', 'markdown/栈/20. 有效的括号' ] },
+    { title: '滑动窗口', sidebarDepth: 2, children: [] },
+    { title: '贪心算法',
+      sidebarDepth: 2,
+      children: [ 'markdown/贪心算法/121. 买卖股票的最佳时机' ] },
+    { title: '链表',
+      sidebarDepth: 2,
+      children:
+       [ 'markdown/链表/2. 两数相加',
+         'markdown/链表/206. 反转链表',
+         'markdown/链表/21. 合并两个有序链表',
+         'markdown/链表/92. 反转链表 II' ] },
+    { title: '队列',
+      sidebarDepth: 2,
+      children: [ 'markdown/队列/225. 用队列实现栈' ]
+    }
     ],
   },
 };

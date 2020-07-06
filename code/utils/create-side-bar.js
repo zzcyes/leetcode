@@ -10,7 +10,7 @@ const readDirSync = (path) => {
   return catalogue;
 };
 
-const BASE_PATH = 'docs/';
+const BASE_PATH = '../../docs/';
 
 const SUB_PATH = 'markdown/';
 

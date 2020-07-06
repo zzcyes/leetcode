@@ -1,57 +1,41 @@
-# blog
+# LeetCode
+### 二叉树
+  - [111. 二叉树的最小深度](./markdown/二叉树/111. 二叉树的最小深度.md)
+  - [235. 二叉搜索树的最近公共祖先](./markdown/二叉树/235. 二叉搜索树的最近公共祖先.md)
+  - [236. 二叉树的最近公共祖先](./markdown/二叉树/236. 二叉树的最近公共祖先.md)
+  - [513. 找树左下角的值](./markdown/二叉树/513. 找树左下角的值.md)
+  - [543. 二叉树的直径](./markdown/二叉树/543. 二叉树的直径.md)
 
-## 基础
+  ### 其他
+  - [165. 比较版本号](./markdown/其他/165. 比较版本号.md)
+  - [27. 移除元素](./markdown/其他/27. 移除元素.md)
+  - [9. 回文数](./markdown/其他/9. 回文数.md)
 
-### JavaScript
+  ### 动态规划
+  - [718. 最长重复子数组](./markdown/动态规划/718. 最长重复子数组.md)
 
-- [001：JavaScript 之对象](./docs/markdown/JavaScript/001_JavaScript之对象.md)
-- [002：JavaScript 之对象的创建](./docs/markdown/JavaScript/002_JavaScript之对象的创建.md)
-- [003：JavaScript 之继承](./docs/markdown/JavaScript/003_JavaScript之继承.md)
-- [004：JavaScript 之数组](./docs/markdown/JavaScript/004_JavaScript之数组.md)
-- [005：JavaScript 之原型原型链 prototype](./docs/markdown/JavaScript/005_JavaScript之原型原型链prototype.md)
-- [006：JavaScript 之 BOM](./docs/markdown/JavaScript/006_JavaScript之BOM.md)
-- [007：JavaScript 之 DOM](./docs/markdown/JavaScript/007_JavaScript之DOM.md)
-- [008：JavaScript 之 function](./docs/markdown/JavaScript/008_JavaScript之function.md)
-- [009：JavaScript 之 Symbol](./docs/markdown/JavaScript/009_JavaScript之Symbol.md)
+  ### 哈希表
+  - [1. 两数之和](./markdown/哈希表/1. 两数之和.md)
+  - [146. LRU缓存机制](./markdown/哈希表/146. LRU缓存机制.md)
+  - [169. 多数元素](./markdown/哈希表/169. 多数元素.md)
+  - [3. 无重复字符的最长子串](./markdown/哈希表/3. 无重复字符的最长子串.md)
 
-### TypeScript
+  ### 栈
+  - [155. 最小栈](./markdown/栈/155. 最小栈.md)
+  - [20. 有效的括号](./markdown/栈/20. 有效的括号.md)
 
-- [001：TypeScript 入门之安装与配置](./docs/markdown/TypeScript/001_TypeScript入门之安装与配置.md)
+  ### 贪心算法
+  - [121. 买卖股票的最佳时机](./markdown/贪心算法/121. 买卖股票的最佳时机.md)
 
-## 技术栈
+  ### 链表
+  - [2. 两数相加](./markdown/链表/2. 两数相加.md)
+  - [206. 反转链表](./markdown/链表/206. 反转链表.md)
+  - [21. 合并两个有序链表](./markdown/链表/21. 合并两个有序链表.md)
+  - [92. 反转链表 II](./markdown/链表/92. 反转链表 II.md)
 
-### hybrid-app
+  ### 队列
+  - [225. 用队列实现栈](./markdown/队列/225. 用队列实现栈.md)
 
-- [001：compatibility](./docs/markdown/hybrid-app/001_compatibility.md)
-
-### vue
-
-- [001：store 中“getter”和“mutation”的生成](./docs/markdown/Vue/001_store中“getter”和“mutation”的生成.md)
-- [002：Vue3.0+TypeScript 脚手架搭建项目](./docs/markdown/Vue/002_Vue3.0+TypeScript脚手架搭建项目.md)
-- [003：Vue3.0+vue-cli-plugin-vue-next 填坑记](./docs/markdown/Vue/003_Vue3.0+vue-cli-plugin-vue-next填坑记.md)
-
-### webpack
-
-- [001：webpack 入门之安装与配置](./docs/markdown/webpack/001_webpack入门之安装与配置.md)
-
-## 总结
-
-### problem-record
-
-- [001：CORS](./docs/markdown/problem-record/001_CORS.md)
-- [002：HTTP&HTTPS 混用](./docs/markdown/problem-record/002_HTTP&HTTPS混用.md)
-- [003：input 无法连续上传同一文件](./docs/markdown/problem-record/003_input无法连续上传同一文件.md)
-- [004：TypeScript](./docs/markdown/problem-record/004_TypeScript.md)
-
-### reading-notes
-
-- [001：airbnb-javascript-style-guide](./docs/markdown/reading-notes/001_airbnb-javascript-style-guide.md)
-- [002：css-world](./docs/markdown/reading-notes/002_css-world.md)
-
-### tool-side
-
-- [001：nginx 的安装与使用](./docs/markdown/tool-side/001_nginx的安装与使用.md)
 
 ## Icons
-
 ✨🐛🔗📦🔨👉🌈🎨✅📝💄🌱🔰🆙🛡⚙️🌍🖥⌨️🤝❤️💚⚡🔌🧳💪🎯❓👬🎁💿📖🧐🤔👽🎉🔧

@@ -24,6 +24,7 @@ module.exports = {
         sidebarDepth: 2,
         children: [
           'markdown/二叉树/111.二叉树的最小深度',
+          'markdown/二叉树/112.路径总和',
           'markdown/二叉树/235.二叉搜索树的最近公共祖先',
           'markdown/二叉树/236.二叉树的最近公共祖先',
           'markdown/二叉树/513.找树左下角的值',

@@ -43,7 +43,15 @@ module.exports = {
       {
         title: '动态规划',
         sidebarDepth: 2,
-        children: ['markdown/动态规划/718.最长重复子数组'],
+        children: [
+          'markdown/动态规划/309.最佳买卖股票时机含冷冻期',
+          'markdown/动态规划/5.最长回文子串',
+          'markdown/动态规划/62.不同路径',
+          'markdown/动态规划/63.不同路径II',
+          'markdown/动态规划/64.最小路径和',
+          'markdown/动态规划/70.爬楼梯',
+          'markdown/动态规划/718.最长重复子数组',
+        ],
       },
       {
         title: '哈希表',
@@ -54,6 +62,11 @@ module.exports = {
           'markdown/哈希表/169.多数元素',
           'markdown/哈希表/3.无重复字符的最长子串',
         ],
+      },
+      {
+        title: '排序',
+        sidebarDepth: 2,
+        children: ['markdown/排序/378.有序矩阵中第K小的元素'],
       },
       {
         title: '栈',

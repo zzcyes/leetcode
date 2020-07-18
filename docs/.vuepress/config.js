@@ -44,6 +44,7 @@ module.exports = {
         title: '动态规划',
         sidebarDepth: 2,
         children: [
+          'markdown/动态规划/198.打家劫舍',
           'markdown/动态规划/309.最佳买卖股票时机含冷冻期',
           'markdown/动态规划/5.最长回文子串',
           'markdown/动态规划/62.不同路径',
@@ -51,6 +52,9 @@ module.exports = {
           'markdown/动态规划/64.最小路径和',
           'markdown/动态规划/70.爬楼梯',
           'markdown/动态规划/718.最长重复子数组',
+          'markdown/动态规划/72.编辑距离',
+          'markdown/动态规划/746.使用最小花费爬楼梯',
+          'markdown/动态规划/91.解码方法',
         ],
       },
       {

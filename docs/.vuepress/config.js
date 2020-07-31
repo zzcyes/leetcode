@@ -78,7 +78,9 @@ module.exports = {
                     ['markdown/哈希表/1.两数之和',
                         'markdown/哈希表/146.LRU缓存机制',
                         'markdown/哈希表/169.多数元素',
-                        'markdown/哈希表/3.无重复字符的最长子串']
+                        'markdown/哈希表/3.无重复字符的最长子串',
+                        'markdown/哈希表/202.快乐数',
+                    ]
             },
             {
                 title: '回溯',

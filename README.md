@@ -52,6 +52,8 @@ leetcode every day
 - ⬜ [146.LRU 缓存机制](./docs/markdown/哈希表/146.LRU缓存机制.md)
 - ⬜ [169.多数元素](./docs/markdown/哈希表/169.多数元素.md)
 - ⬜ [3.无重复字符的最长子串](./docs/markdown/哈希表/3.无重复字符的最长子串.md)
+- ✅ [136.只出现一次的数字](./docs/markdown/哈希表/136.只出现一次的数字.md)
+- ✅ [202.快乐数](./docs/markdown/哈希表/202.快乐数.md)
 
 ## 排序
 

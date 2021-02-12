@@ -161,6 +161,11 @@ module.exports = {
                 ]
             },
             {
+                "title": "滑动窗口",
+                "sidebarDepth": 2,
+                "children": []
+            },
+            {
                 "title": "贪心算法",
                 "sidebarDepth": 2,
                 "children": [

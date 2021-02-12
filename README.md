@@ -10,21 +10,15 @@
 
 - [0378.有序矩阵中第K小的元素](./docs/markdown/排序/0378.有序矩阵中第K小的元素.md)
 
-- [README](./docs/markdown/排序/README.md)
-
 ### 栈
 
 - [0020.有效的括号](./docs/markdown/栈/0020.有效的括号.md)
 
 - [0155.最小栈](./docs/markdown/栈/0155.最小栈.md)
 
-- [README](./docs/markdown/栈/README.md)
-
 ### 队列
 
 - [0225.用队列实现栈](./docs/markdown/队列/0225.用队列实现栈.md)
-
-- [README](./docs/markdown/队列/README.md)
 
 ### 哈希表
 
@@ -92,8 +86,6 @@
 
 - [0237.删除链表中的节点](./docs/markdown/链表/0237.删除链表中的节点.md)
 
-- [README](./docs/markdown/链表/README.md)
-
 ### 二叉树
 
 - [0100.相同的树](./docs/markdown/二叉树/0100.相同的树.md)
@@ -123,8 +115,6 @@
 - [0513.找树左下角的值](./docs/markdown/二叉树/0513.找树左下角的值.md)
 
 - [0543.二叉树的直径](./docs/markdown/二叉树/0543.二叉树的直径.md)
-
-- [README](./docs/markdown/二叉树/README.md)
 
 ## 困难
 
@@ -166,8 +156,6 @@
 
 - [1025.除数博弈](./docs/markdown/动态规划/1025.除数博弈.md)
 
-- [README](./docs/markdown/动态规划/README.md)
-
 ### 回溯
 
 - [0017.电话号码的字母组合](./docs/markdown/回溯/0017.电话号码的字母组合.md)
@@ -180,13 +168,9 @@
 
 - [0784.字母大小写全排列](./docs/markdown/回溯/0784.字母大小写全排列.md)
 
-- [README](./docs/markdown/回溯/README.md)
-
 ### 贪心算法
 
 - [0121.买卖股票的最佳时机](./docs/markdown/贪心算法/0121.买卖股票的最佳时机.md)
-
-- [README](./docs/markdown/贪心算法/README.md)
 
 ## 其他
 
@@ -205,5 +189,3 @@
 - [0165.比较版本号](./docs/markdown/其他/0165.比较版本号.md)
 
 - [0238.除自身以外数组的乘积](./docs/markdown/其他/0238.除自身以外数组的乘积.md)
-
-- [README](./docs/markdown/其他/README.md)

@@ -164,8 +164,11 @@ const createCustomTemplate = ({ title = "blog", linksPath = "" }) => {
             }
         });
         secondry.children = third.map(thiedItem => {
+            if(thiedItem.name==='README'){
+                return'';
+            }
             return `- [${thiedItem.name}](${linksPath}${thiedItem.fullPath})`
-        });
+        }).filter(content=>content);
         thridMap.set(patentName, secondry.children);
     });
 

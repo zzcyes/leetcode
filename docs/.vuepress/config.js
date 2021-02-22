@@ -46,6 +46,7 @@ module.exports = {
                 "title": "二叉树",
                 "sidebarDepth": 2,
                 "children": [
+                    "markdown/二叉树/0094.二叉树的中序遍历",
                     "markdown/二叉树/0100.相同的树",
                     "markdown/二叉树/0101.对称二叉树",
                     "markdown/二叉树/0110.平衡二叉树",
@@ -159,11 +160,6 @@ module.exports = {
                     "markdown/栈/0020.有效的括号",
                     "markdown/栈/0155.最小栈"
                 ]
-            },
-            {
-                "title": "滑动窗口",
-                "sidebarDepth": 2,
-                "children": []
             },
             {
                 "title": "贪心算法",

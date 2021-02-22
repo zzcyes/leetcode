@@ -16,11 +16,69 @@
 
 ## 遍历方式
 
-- 前序遍历：父节点->左子树->右子树
+- 深度优先搜索（BFS）
 
-- 中序遍历：左子树->父节点->右子树
+    - 层次遍历
 
-- 后序遍历：左子树->右子树->父节点
+- 广度/宽度优先搜索（DFS）
+
+    - 前序遍历：父节点->左子树->右子树
+
+    - 中序遍历：左子树->父节点->右子树
+
+    - 后序遍历：左子树->右子树->父节点
+
+### 层次遍历
+
+示例:
+
+```
+  3
+  / \
+9  20
+  /  \
+  15   7
+```
+
+结果应输出:
+
+```
+[
+  [3],
+  [9,20],
+  [15,7]
+]
+```
+
+```js
+/**
+ * @param {TreeNode} root
+ * @return {number[][]}
+ */
+var levelOrder = function(root) {
+    if(!root) return [];
+    let queue = [];
+    let res = [];
+    let level = 0;
+    queue.push(root);
+    let temp;
+    while(queue.length) {
+        res.push([]);
+        let size = queue.length;
+        // 注意一下: size -- 在层次遍历中是一个非常重要的技巧
+        while(size --) {
+            // 出队
+            let front = queue.shift();
+            res[level].push(front.val);
+            // 入队
+            if(front.left) queue.push(front.left);
+            if(front.right) queue.push(front.right);
+        }
+        level++;
+    }
+    return res;
+};
+```
 
 ### 前序遍历
 
@@ -279,58 +337,6 @@ var postorderTraversal = function(root) {
 };
 ```
 
-### 层次遍历
-
-示例:
-
-```
-  3
-  / \
-9  20
-  /  \
-  15   7
-```
-
-结果应输出:
-
-```
-[
-  [3],
-  [9,20],
-  [15,7]
-]
-```
-
-```js
-/**
- * @param {TreeNode} root
- * @return {number[][]}
- */
-var levelOrder = function(root) {
-    if(!root) return [];
-    let queue = [];
-    let res = [];
-    let level = 0;
-    queue.push(root);
-    let temp;
-    while(queue.length) {
-        res.push([]);
-        let size = queue.length;
-        // 注意一下: size -- 在层次遍历中是一个非常重要的技巧
-        while(size --) {
-            // 出队
-            let front = queue.shift();
-            res[level].push(front.val);
-            // 入队
-            if(front.left) queue.push(front.left);
-            if(front.right) queue.push(front.right);
-        }
-        level++;
-    }
-    return res;
-};
-```
-
-## links
+## 资源
 
 - [算法与数据结构-神三元](http://47.98.159.95/leetcode-js)

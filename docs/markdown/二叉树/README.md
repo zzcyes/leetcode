@@ -266,6 +266,7 @@ var postorderTraversal = function(root) {
       p = p.left;
     }
     let node = stack[stack.length - 1];
+     // 如果右孩子存在，而且右孩子未被访问
     if (node.right && !traversed.has(node.right)) {
       p = node.right;
       traversed.add(node.right);

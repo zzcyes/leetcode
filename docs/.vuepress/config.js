@@ -21,16 +21,12 @@ module.exports = {
         "backToTop": true,
         "nav": [
             {
-                "text": "Home",
-                "link": "/"
-            },
-            {
                 "text": "Catalogue",
                 "link": "/catalogue"
             },
             {
                 "text": "Blog",
-                "link": "http://www.zzcyes.com/blog"
+                "link": "https://www.zzcyes.com/blogs"
             },
             {
                 "text": "Github",
@@ -74,6 +70,7 @@ module.exports = {
                     "markdown/其他/0009.回文数",
                     "markdown/其他/0014.最长公共前缀",
                     "markdown/其他/0027.移除元素",
+                    "markdown/其他/0050.Pow(x,n)",
                     "markdown/其他/0165.比较版本号",
                     "markdown/其他/0238.除自身以外数组的乘积"
                 ]
@@ -83,7 +80,6 @@ module.exports = {
                 "sidebarDepth": 2,
                 "children": [
                     "markdown/动态规划/0005.最长回文子串",
-                    "markdown/动态规划/0050.Pow(x,n)",
                     "markdown/动态规划/0053.最大子序和",
                     "markdown/动态规划/0062.不同路径",
                     "markdown/动态规划/0063.不同路径II",
@@ -92,6 +88,7 @@ module.exports = {
                     "markdown/动态规划/0072.编辑距离",
                     "markdown/动态规划/0091.解码方法",
                     "markdown/动态规划/0120.三角形最小路径和",
+                    "markdown/动态规划/0121.买卖股票的最佳时机",
                     "markdown/动态规划/0198.打家劫舍",
                     "markdown/动态规划/0213.打家劫舍II",
                     "markdown/动态规划/0303.区域和检索-数组不可变",

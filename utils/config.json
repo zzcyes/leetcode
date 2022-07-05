@@ -19,18 +19,13 @@
         "searchMaxSuggestions": 10,
         "lastUpdated": "Last Updated",
         "backToTop": true,
-        "nav": [
-            {
-                "text": "Home",
-                "link": "/"
-            },
-            {
+        "nav": [{
                 "text": "Catalogue",
                 "link": "/catalogue"
             },
             {
                 "text": "Blog",
-                "link": "http://www.zzcyes.com/blog"
+                "link": "https://www.zzcyes.com/blogs"
             },
             {
                 "text": "Github",

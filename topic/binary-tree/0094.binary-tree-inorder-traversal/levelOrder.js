@@ -1,7 +1,8 @@
 const { TreeNode } = require("./../../../utils/node.js");
-
 // 层次遍历
-
+// “广度优先搜索遍历类似于树的按层次遍历的过程”
+// 广度/宽度优先搜索（Breadth First Search，简称BFS）
+// 从根节点开始，沿着树的宽度遍历树的节点，直到所有节点都被遍历完为止。
 /**
  * Definition for a binary tree node.
  * function TreeNode(val, left, right) {
@@ -14,8 +15,9 @@ const { TreeNode } = require("./../../../utils/node.js");
  * @param {TreeNode} root
  * @return {number[]}
  */
-// 层次遍历
-var levelOrder = function (root) {
+
+// NOTE: level 是层级，size 是每层的宽度
+function levelOrder(root) {
   if (!root) return [];
   let stack = [];
   let res = [];
@@ -57,3 +59,5 @@ tree.right.right = new TreeNode(7);
 console.log(tree);
 
 console.log(levelOrder(tree));
+
+module.exports = levelOrder;

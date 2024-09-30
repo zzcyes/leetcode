@@ -143,6 +143,9 @@ var preorderTraversal = function(root) {
 
 #### 迭代
 
+我们也可以用迭代的方式实现递归函数，两种方式是等价的，区别在于递归的时候隐式地维护了一个栈，而我们在迭代的时候需要显式地将这个栈模拟出来，其余的实现与细节都相同，具体可以参考下面的代码。
+
+
 ```javascript
 /**
  * Definition for a binary tree node.
@@ -155,6 +158,7 @@ var preorderTraversal = function(root) {
  * @param {TreeNode} root
  * @return {number[]}
  */
+// 父节点 -> 左子树 -> 右子树
 var preorderTraversal = function(root) {
   if (root == null) return [];
   const stack = [];
@@ -228,6 +232,39 @@ var preorderTraversal = function(root) {
 
 #### 迭代
 
+
+递归函数我们也可以用迭代的方式实现，两种方式是等价的，区别在于递归的时候隐式地维护了一个栈，而我们在迭代的时候需要显式地将这个栈模拟出来，其他都相同，具体实现可以看下面的代码。
+
+```javascript
+/**
+ * Definition for a binary tree node.
+ * function TreeNode(val) {
+ *     this.val = val;
+ *     this.left = this.right = null;
+ * }
+ */
+/**
+ * @param {TreeNode} root
+ * @return {number[]}
+ */
+// 父节点 -> 左子树 -> 右子树
+var preorderTraversal = function(root) {
+  if (root == null) return [];
+  const res = [];
+  const stack = [];
+  while (root || stack.length) {
+    while(root){
+      stack.push(root);
+      root = root.left;
+    }
+    root = stack.pop();
+    res.push(root.val);
+    root = root.right;
+  }
+  return res;
+};
+```
+
 ```js
 /**
  * Definition for a binary tree node.
@@ -240,8 +277,9 @@ var preorderTraversal = function(root) {
  * @param {TreeNode} root
  * @return {number[]}
  */
+// 左子树 -> 父节点 ->  右子树
 var inorderTraversal = function(root) {
-   if(root == null) return [];
+    if(root == null) return [];
     let stack = [], res = [];
     let p = root;
     while(stack.length || p) {
@@ -323,6 +361,7 @@ var postorderTraversal = function(root) {
  * @param {TreeNode} root
  * @return {number[]}
  */
+// 左子树 ->  右子树 ->  父节点 
 var postorderTraversal = function(root) {
   if (root == null) return [];
   const stack = [];

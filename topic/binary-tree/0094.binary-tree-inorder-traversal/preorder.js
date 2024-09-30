@@ -18,6 +18,7 @@ const { TreeNode } = require("./../../../utils/node.js");
  * @param {TreeNode} root
  * @return {number[]}
  */
+// 递归
 function preorder(root) {
   if (!root) return [];
   let res = [];
@@ -52,5 +53,28 @@ console.log(tree);
 const results = preorder(tree);
 
 console.log("results:", results);
+
+/**
+ * @param {TreeNode} root
+ * @return {number[]}
+ */
+// 迭代
+function preorderIteration(root) {
+  if (!root) return [];
+  let stack = [];
+  let res = [];
+  stack.push(root);
+  while (stack.length) {
+    const { val, left, right } = stack.pop();
+    right && stack.push(right);
+    left && stack.push(left);
+    res.push(val);
+  }
+  return res;
+}
+
+const results1 = preorderIteration(tree);
+
+console.log("preorderIteration-results:", results1);
 
 module.exports = preorder;
